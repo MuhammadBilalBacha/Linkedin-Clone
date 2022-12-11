@@ -1,0 +1,23 @@
+.right-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.back {
+    border-radius: 50%;
+}
+.back div {
+    border-radius: 50%;
+}
+.btn-two {
+    background: white;
+    border: rgba(0, 123, 181, 255);
+    color: rgba(0, 123, 181, 255);
+    border: 2px solid;
+    padding: 4px 17px;
+    border-radius: 20px;
+}
+.btn-two:hover {
+    background-color: rgba(0, 123, 181, 255);
+    color: white;
+}

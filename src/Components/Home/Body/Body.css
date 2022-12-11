@@ -1,0 +1,30 @@
+.toptext {
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 7rem;
+}
+.mytoptext {
+    font-size: x-large;
+    text-decoration: underline;
+    color: rgba(0, 123, 181, 255);
+}
+.textend {
+    font-size: x-large;
+        text-decoration: underline;
+}
+.layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 600px) {
+    .left {
+        display: none;
+
+    }
+    .right {
+        display: none;
+    }
+}

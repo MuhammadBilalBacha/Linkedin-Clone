@@ -1,0 +1,43 @@
+.mainSection {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 4px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.maininput input {
+    outline-width: 0;
+        border: 2px solid gray;
+        padding: 5px 44px;
+        margin: 0px 10px;
+        border-radius: 999px;
+        background-color: white;
+        width: 100%;
+        
+}
+.loader {
+    /* height:; */
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader img {
+    object-fit: contain;
+    width: 100%;
+
+}

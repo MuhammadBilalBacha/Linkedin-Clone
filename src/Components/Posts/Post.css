@@ -1,0 +1,31 @@
+.post-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.post-title {
+    display: flex;
+    flex-direction: column;
+}
+.post-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
+.like {
+    cursor: pointer;
+        border-radius: 4px;
+            padding-inline: 15px;
+            padding-block: 2px;
+
+}
+.like:hover {
+    background-color: rgb(188, 187, 187);
+    color: rgba(0, 123, 181, 255);
+}
+.likeshow {
+    display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+}
